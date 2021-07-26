@@ -1,0 +1,13 @@
+Algorithme count
+variables 
+param:chaine de caractere
+fin:char:='.';
+number :integer :=0;
+Begin
+write('Enter votre phrase ')
+read (param)
+for i:=1 to param.length do 
+number :=number+1;
+fin
+write (number);
+fin
