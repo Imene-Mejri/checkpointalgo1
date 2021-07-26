@@ -1,0 +1,27 @@
+Algorithme count
+variables 
+param:chaine de caractere
+fin:char:='.';
+word: integer:=0
+number :integer :=0;
+voyelle:char in ['A','e','i','u','y','o']
+numchar:integer:=0
+Begin
+write('Enter votre phrase ')
+read (param)
+repeter 
+    for i:=1 to param.length do 
+    
+    number :=number+1;
+    if param[i]=char then 
+    numchar:=numchar+1
+    fin if 
+    if param[i]=' ' then 
+      word:=word+ 1
+    fin
+    
+jusqu'a (param.lenght=fin)
+write (number);
+write (word);
+write (numchar)
+fin
